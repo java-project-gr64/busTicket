@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="buspro.jnlp">
+  <information>
+    <title>buspro</title>
+    <vendor>ranjan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="buspro.jar" size="28875" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.22.jar" size="2389216" download="eager" />
+  </resources>
+  <application-desc main-class="buspro.intf1"  name="buspro" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
